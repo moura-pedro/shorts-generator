@@ -3,8 +3,9 @@ import re
 from collections import Counter
 from video import Video
 
+
 # YTv3 API key
-API_KEY = 'AIzaSyCwIXpGonD-cvRPSbAz82Di2IlIakxJpLM'
+from secret_key import API_KEY
 
 YOUTUBE = build('youtube', 'v3', developerKey=API_KEY)
 
