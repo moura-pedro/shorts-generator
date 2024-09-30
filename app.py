@@ -4,7 +4,7 @@ from download import *
 def main ():
     # Choose country Region and number of videos you want.
     # Ex: ('US', 10) --> this will return the top 10 trending videos in the United States
-    request = create_request('US', 3)
+    request = create_request('US', 1)
     videos = get_videos(request)
 
     for i in range(len(videos)):

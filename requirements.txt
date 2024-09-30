@@ -1,2 +1,4 @@
 google-api-python-client
 yt_dlp
+openai-whisper
+ffmpeg-python
